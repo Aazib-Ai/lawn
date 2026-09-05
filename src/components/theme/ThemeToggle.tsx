@@ -10,7 +10,7 @@ import {
   useState,
 } from "react";
 
-const THEME_STORAGE_KEY = "lawn-theme";
+const THEME_STORAGE_KEY = "markr-theme";
 
 type Theme = "light" | "dark";
 

@@ -6,7 +6,7 @@ const painPoints = [
     id: "01",
     title: "ADDING A FREELANCER SHOULDN'T COST $19/MO",
     description:
-      'You hired them for a two-week project. Why are you paying a monthly seat fee? lawn is $5/month total. Unlimited seats. Add your whole roster — full-timers, freelancers, that one intern who\'s "really good at Premiere."',
+      'You hired them for a two-week project. Why are you paying a monthly seat fee? Markr is $5/month total. Unlimited seats. Add your whole roster — full-timers, freelancers, that one intern who\'s "really good at Premiere."',
   },
   {
     id: "02",
@@ -32,21 +32,21 @@ const comparisons = [
   {
     size: "5-PERSON TEAM",
     competitor: "$95",
-    lawn: "$5",
+    markr: "$5",
     saved: "$1,080",
     commentary: "That's a lot of coffee.",
   },
   {
     size: "10-PERSON TEAM",
     competitor: "$190",
-    lawn: "$5",
+    markr: "$5",
     saved: "$2,220",
     commentary: "A nice camera lens, actually.",
   },
   {
     size: "15 + FREELANCERS",
     competitor: "$285+",
-    lawn: "$5",
+    markr: "$5",
     saved: "$3,360+",
     commentary: "Almost enough for one more freelancer.",
   },
@@ -78,7 +78,7 @@ export default function ForAgencies() {
               wasn't built for you. It was built to charge you more.
             </p>
             <p className="mt-4 text-lg font-medium text-[#888]">
-              lawn is video review for creative teams. Unlimited seats. $5/month. The whole agency,
+              Markr is video review for creative teams. Unlimited seats. $5/month. The whole agency,
               not per editor.
             </p>
           </div>
@@ -146,7 +146,7 @@ export default function ForAgencies() {
                 MATH.
               </h2>
               <p className="max-w-sm text-xl font-medium text-[#888]">
-                Frame.io charges $19/user/month. lawn charges $5/month total. Here's what that looks
+                Frame.io charges $19/user/month. Markr charges $5/month total. Here's what that looks
                 like at agency scale.
               </p>
             </div>
@@ -179,9 +179,9 @@ export default function ForAgencies() {
                       </div>
                       <div className="flex-1 border-b-2 border-[#1a1a1a] bg-[#f0f0e8] p-6 sm:border-r-2 sm:border-b-0 md:p-8">
                         <span className="mb-1 block text-xs font-bold tracking-widest text-[#888]">
-                          LAWN
+                          MARKR
                         </span>
-                        <span className="text-3xl font-black text-[#2d5a2d]">{row.lawn}</span>
+                        <span className="text-3xl font-black text-[#2d5a2d]">{row.markr}</span>
                         <span className="text-sm font-bold text-[#888]">/mo</span>
                       </div>
                       <div className="flex-1 bg-[#f0f0e8] p-6 md:p-8">

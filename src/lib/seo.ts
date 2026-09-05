@@ -1,7 +1,6 @@
 const SITE_URL = "https://lawn.video";
-const SITE_NAME = "lawn";
+const SITE_NAME = "Markr";
 const DEFAULT_OG_IMAGE = "/og/default.png";
-const TWITTER_HANDLE = "@theo";
 
 type SeoOptions = {
   title: string;
@@ -51,7 +50,7 @@ export function seoHead({
   type = "website",
   noIndex = false,
 }: SeoOptions) {
-  const fullTitle = title.toLowerCase().includes("lawn") ? title : `${title} | lawn`;
+  const fullTitle = title.toLowerCase().includes("markr") ? title : `${title} | Markr`;
   const url = `${SITE_URL}${path}`;
   const imageUrl = ogImage.startsWith("http") ? ogImage : `${SITE_URL}${ogImage}`;
 
@@ -70,7 +69,6 @@ export function seoHead({
     { name: "twitter:title", content: fullTitle },
     { name: "twitter:description", content: description },
     { name: "twitter:image", content: imageUrl },
-    { name: "twitter:site", content: TWITTER_HANDLE },
   ];
 
   if (noIndex) {

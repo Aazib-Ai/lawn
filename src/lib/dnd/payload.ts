@@ -25,7 +25,7 @@ export type DragPayload =
       name: string;
     };
 
-const DRAG_KIND_KEY = "__lawnDnd";
+const DRAG_KIND_KEY = "__markrDnd";
 
 /** Stamp + return a payload as the plain record pragmatic-dnd expects. */
 export function makeDragData(payload: DragPayload): Record<string, unknown> {

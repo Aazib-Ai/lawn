@@ -1,6 +1,6 @@
 import { useCallback, useSyncExternalStore } from "react";
 
-const STORAGE_KEY = "lawn:discussion-collapsed";
+const STORAGE_KEY = "markr:discussion-collapsed";
 const listeners = new Set<() => void>();
 
 let collapsed = false;

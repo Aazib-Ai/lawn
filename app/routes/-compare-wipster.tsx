@@ -2,43 +2,43 @@ import { Link } from "@tanstack/react-router";
 import { MarketingLayout } from "@/components/MarketingLayout";
 
 const WIPSTER_PRICE_PER_USER = 15;
-const LAWN_PRICE_FLAT = 5;
+const MARKR_PRICE_FLAT = 5;
 
 const comparisonRows = [
   {
     feature: "Pricing",
     wipster: "Per-user/month",
-    lawn: "$5/month. Total.",
+    markr: "$5/month. Total.",
     note: "Your accountant will love you.",
   },
   {
     feature: "Open source",
     wipster: "No",
-    lawn: "Yes",
+    markr: "Yes",
     note: "You can literally read our code.",
   },
   {
     feature: "Speed",
     wipster: "Solid, no complaints",
-    lawn: "Instant Mux playback",
+    markr: "Instant Mux playback",
     note: "We're unreasonably competitive about this.",
   },
   {
     feature: "Sharing",
     wipster: "Invite to workspace",
-    lawn: "Just a link",
+    markr: "Just a link",
     note: "Your clients don't want another login.",
   },
   {
     feature: "Simplicity",
     wipster: "Full-featured platform",
-    lawn: "Fewer features (on purpose)",
+    markr: "Fewer features (on purpose)",
     note: "We call this a feature, not a bug.",
   },
   {
     feature: "Approvals",
     wipster: "Built-in workflows",
-    lawn: "Comments + thumbs up",
+    markr: "Comments + thumbs up",
     note: "If that's not enough, we respect that.",
   },
 ];
@@ -46,7 +46,7 @@ const comparisonRows = [
 const teamSizes = [3, 5, 10, 25];
 
 function annualSavings(teamSize: number) {
-  return (WIPSTER_PRICE_PER_USER * teamSize - LAWN_PRICE_FLAT) * 12;
+  return (WIPSTER_PRICE_PER_USER * teamSize - MARKR_PRICE_FLAT) * 12;
 }
 
 const savingsCommentary: Record<number, string> = {
@@ -63,7 +63,7 @@ export default function CompareWipster() {
       <section className="border-b-2 border-[var(--border)] bg-[var(--background)] px-6 pt-20 pb-24 md:pt-28 md:pb-32">
         <div className="mx-auto max-w-5xl">
           <h1 className="text-[14vw] leading-[0.85] font-black tracking-tighter uppercase sm:text-[10vw] md:text-[8vw]">
-            lawn vs
+            Markr vs
             <br />
             Wipster
           </h1>
@@ -78,7 +78,7 @@ export default function CompareWipster() {
               </span>
             </p>
             <p className="mt-6 max-w-lg text-lg font-medium text-[var(--foreground-muted)]">
-              Wipster is a solid tool with real approval workflows and a proper feature set. lawn is
+              Wipster is a solid tool with real approval workflows and a proper feature set. Markr is
               smaller, cheaper, and open source. We do less for less money, and that's the whole
               pitch.
             </p>
@@ -103,7 +103,7 @@ export default function CompareWipster() {
                 Wipster
               </div>
               <div className="border-l-2 border-[var(--border)] p-4 text-sm font-black tracking-wider text-[var(--accent-light)] uppercase md:p-6">
-                lawn
+                Markr
               </div>
             </div>
 
@@ -123,7 +123,7 @@ export default function CompareWipster() {
                   {row.wipster}
                 </div>
                 <div className="flex items-center border-l-2 border-[var(--border)] p-4 font-bold text-[var(--accent)] md:p-6">
-                  {row.lawn}
+                  {row.markr}
                 </div>
               </div>
             ))}
@@ -144,7 +144,7 @@ export default function CompareWipster() {
             MATH.
           </h2>
           <p className="mx-auto mb-16 max-w-lg text-center text-lg font-medium text-[var(--foreground-muted)]">
-            Wipster charges per user. lawn charges $5 per month total. Not per user. Just $5. The
+            Wipster charges per user. Markr charges $5 per month total. Not per user. Just $5. The
             math gets increasingly silly as your team grows.
           </p>
 
@@ -152,7 +152,7 @@ export default function CompareWipster() {
             {teamSizes.map((size) => {
               const savings = annualSavings(size);
               const wipsterAnnual = WIPSTER_PRICE_PER_USER * size * 12;
-              const lawnAnnual = LAWN_PRICE_FLAT * 12;
+              const markrAnnual = MARKR_PRICE_FLAT * 12;
 
               return (
                 <div
@@ -176,9 +176,9 @@ export default function CompareWipster() {
                     </div>
                     <div className="mb-4 flex items-baseline justify-between">
                       <span className="text-xs font-bold tracking-wider text-[var(--accent)] uppercase">
-                        lawn
+                        Markr
                       </span>
-                      <span className="font-black text-[var(--accent)]">${lawnAnnual}/yr</span>
+                      <span className="font-black text-[var(--accent)]">${markrAnnual}/yr</span>
                     </div>
                     <div className="mt-auto border-t-2 border-[var(--border-subtle)] pt-4">
                       <div className="text-3xl font-black text-[var(--accent)]">
@@ -206,12 +206,12 @@ export default function CompareWipster() {
               You can literally read our code.
             </p>
             <p className="max-w-2xl text-base font-medium opacity-90">
-              lawn is fully open source. Every line. The elegant parts and the parts where we left a
+              Markr is fully open source. Every line. The elegant parts and the parts where we left a
               TODO from three months ago. No black box. No trust required. Just code you can read,
               fork, and judge silently.
             </p>
             <a
-              href="https://github.com/pingdotgg/lawn"
+              href="https://github.com/Aazib-Ai/lawn"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-block text-sm font-black tracking-wider uppercase underline underline-offset-4 transition-colors hover:text-[var(--accent-light)]"
@@ -289,11 +289,11 @@ export default function CompareWipster() {
               </div>
             </div>
 
-            {/* Use lawn if... */}
+            {/* Use Markr if... */}
             <div className="border-2 border-[var(--border)] bg-[var(--surface-strong)] text-[var(--foreground-inverse)] shadow-[8px_8px_0px_0px_var(--shadow-accent)]">
               <div className="border-b-2 border-[var(--border)] p-6">
                 <h3 className="text-2xl font-black tracking-tighter text-[var(--accent-light)] uppercase md:text-3xl">
-                  Use lawn if...
+                  Use Markr if...
                 </h3>
               </div>
               <div className="p-6">

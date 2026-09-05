@@ -8,7 +8,7 @@ export const Route = createFileRoute("/dashboard")({
   head: () => {
     const head = seoHead({
       title: "Dashboard",
-      description: "Manage your video projects on lawn.",
+      description: "Manage your video projects on Markr.",
       path: "/dashboard",
       noIndex: true,
     });

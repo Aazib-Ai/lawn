@@ -1,6 +1,6 @@
 import type { Id } from "@convex/_generated/dataModel";
 
-const DB_NAME = "lawn-upload-resume";
+const DB_NAME = "markr-upload-resume";
 const DB_VERSION = 1;
 const STORE_NAME = "sessions";
 const RESUME_SESSION_MAX_AGE_MS = 14 * 24 * 60 * 60 * 1000;

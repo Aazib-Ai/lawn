@@ -269,7 +269,7 @@ export default function WatchPage() {
           <CardContent>
             <Link to="/" preload="intent" className="block">
               <Button variant="outline" className="w-full">
-                Go to lawn
+                Go to Markr
               </Button>
             </Link>
           </CardContent>
@@ -290,7 +290,7 @@ export default function WatchPage() {
             to="/"
             className="flex items-center gap-2 text-sm font-bold text-[#888] hover:text-[#1a1a1a]"
           >
-            lawn
+            Markr
           </Link>
           <div className="h-4 w-[2px] bg-[#1a1a1a]/20" />
           <h1 className="max-w-[150px] truncate text-base font-black sm:max-w-[300px]">

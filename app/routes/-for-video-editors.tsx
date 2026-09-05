@@ -6,13 +6,13 @@ const painPoints = [
     id: "01",
     title: "CLIENTS DON'T KNOW TIMECODES",
     description:
-      'Your client says "around the middle somewhere, you know, after the thing." With lawn, they click on the video and their comment lands on that exact frame. No timecode math. No guessing.',
+      'Your client says "around the middle somewhere, you know, after the thing." With Markr, they click on the video and their comment lands on that exact frame. No timecode math. No guessing.',
   },
   {
     id: "02",
     title: "UPLOAD, WAIT, TRANSCODE, WAIT",
     description:
-      "You just exported a 12GB ProRes and now you need to wait 20 minutes for it to process. lawn uses Mux-powered playback — upload your file, get a link, share it. Seconds, not minutes.",
+      "You just exported a 12GB ProRes and now you need to wait 20 minutes for it to process. Markr uses Mux-powered playback — upload your file, get a link, share it. Seconds, not minutes.",
   },
   {
     id: "03",
@@ -24,7 +24,7 @@ const painPoints = [
     id: "04",
     title: "10 REVIEWERS = 10 SEATS = $$$",
     description:
-      "The director, the producer, the client, the client's wife, the intern who somehow has opinions — they all need access. lawn is $5/month flat. Invite literally everyone.",
+      "The director, the producer, the client, the client's wife, the intern who somehow has opinions — they all need access. Markr is $5/month flat. Invite literally everyone.",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function ForVideoEditors() {
           </h1>
           <p className="mb-12 max-w-3xl text-xl font-medium text-[#888] md:text-2xl">
             Your client said "make it pop" on a 47-minute timeline. You deserve a review tool that
-            at least tells you where they meant. lawn gives you frame-accurate feedback, instant
+            at least tells you where they meant. Markr gives you frame-accurate feedback, instant
             playback, and a workflow that doesn't fight your NLE.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
@@ -90,7 +90,7 @@ export default function ForVideoEditors() {
             THE PAIN IS REAL.
           </h2>
           <p className="mx-auto mb-16 max-w-2xl text-center text-lg font-medium text-[#888]">
-            Every editor knows these problems. We built lawn to fix them.
+            Every editor knows these problems. We built Markr to fix them.
           </p>
 
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">

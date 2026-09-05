@@ -1,6 +1,6 @@
-# lawn
+# Markr
 
-Video review platform for creative teams. Built by Theo.
+Video review platform for creative teams.
 
 ## Design Language
 

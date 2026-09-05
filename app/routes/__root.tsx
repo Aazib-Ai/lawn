@@ -10,14 +10,13 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "lawn — video review for creative teams" },
+      { title: "Markr — video review for creative teams" },
       {
         name: "description",
         content:
           "Video review and collaboration for creative teams. Frame-accurate comments, unlimited seats, $5/month flat. The open source Frame.io alternative.",
       },
-      { property: "og:site_name", content: "lawn" },
-      { name: "twitter:site", content: "@theo" },
+      { property: "og:site_name", content: "Markr" },
     ],
     links: [
       {
@@ -62,7 +61,7 @@ function RootDocument({ children }: { children: ReactNode }) {
   const themeInitScript = `
     (() => {
       try {
-        const stored = localStorage.getItem("lawn-theme");
+        const stored = localStorage.getItem("markr-theme");
         if (stored === "light" || stored === "dark") {
           document.documentElement.setAttribute("data-theme", stored);
           return;

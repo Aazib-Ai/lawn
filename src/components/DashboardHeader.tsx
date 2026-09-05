@@ -112,7 +112,7 @@ export function DashboardHeader({
           className="mr-2 flex-shrink-0 transition-colors hover:text-[#2d5a2d]"
           {...prewarmHomeIntentHandlers}
         >
-          lawn.
+          markr.
         </Link>
         {paths.map((path, index) => {
           const isIntermediate = paths.length >= 2 && index < paths.length - 1;

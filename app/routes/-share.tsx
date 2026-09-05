@@ -343,7 +343,7 @@ export default function SharePage() {
           <CardContent>
             <Link to="/" preload="intent" className="block">
               <Button variant="outline" className="w-full">
-                Go to lawn
+                Go to Markr
               </Button>
             </Link>
           </CardContent>
@@ -447,7 +447,7 @@ export default function SharePage() {
             to="/"
             className="flex items-center gap-2 text-sm font-bold text-[#888] hover:text-[#1a1a1a]"
           >
-            lawn
+            Markr
           </Link>
           <Button
             variant="outline"
@@ -627,7 +627,7 @@ export default function SharePage() {
         <div className="mx-auto max-w-6xl text-center text-sm text-[#888]">
           Shared via{" "}
           <Link to="/" preload="intent" className="font-bold text-[#1a1a1a] hover:text-[#2d5a2d]">
-            lawn
+            Markr
           </Link>
         </div>
       </footer>

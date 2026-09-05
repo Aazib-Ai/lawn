@@ -58,7 +58,7 @@ export default function Homepage() {
           <span
             className={`text-xl font-black tracking-tighter transition-opacity duration-200 ${scrolled ? "opacity-100" : "opacity-0"}`}
           >
-            lawn.
+            markr.
           </span>
         </div>
         <div className="flex items-center gap-6 text-sm font-bold tracking-wide uppercase">
@@ -91,7 +91,7 @@ export default function Homepage() {
               textShadow: "8px 8px 0 #1a1a1a, 0 20px 40px rgba(0,0,0,0.5)",
             }}
           >
-            lawn
+            markr
           </h1>
 
           <div className="mt-20 flex flex-col gap-12 md:mt-24 lg:flex-row lg:items-end lg:justify-between">
@@ -267,7 +267,7 @@ export default function Homepage() {
                     THE SOLUTION
                   </div>
                   <div className="mb-8 text-5xl font-black tracking-tighter text-[#7cb87c]">
-                    lawn
+                    Markr
                   </div>
 
                   <div className="mb-8">
@@ -312,18 +312,9 @@ export default function Homepage() {
       {/* Quote */}
       <section className="border-b-2 border-[#1a1a1a] bg-[#2d5a2d] px-6 py-32 text-[#f0f0e8]">
         <div className="mx-auto max-w-5xl text-center">
-          <blockquote className="mb-8 text-4xl leading-tight font-black tracking-tighter uppercase md:text-6xl">
-            "I built lawn because I got tired of waiting for Frame.io to load. Video review should
-            be instant."
+          <blockquote className="text-4xl leading-tight font-black tracking-tighter uppercase md:text-6xl">
+            "Video review should be instant, reliable, and frictionless."
           </blockquote>
-          <a
-            href="https://x.com/theo"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block border-2 border-[#f0f0e8] px-6 py-3 font-bold tracking-wider uppercase transition-colors hover:bg-[#f0f0e8] hover:text-[#2d5a2d]"
-          >
-            — Theo
-          </a>
         </div>
       </section>
 
@@ -445,7 +436,7 @@ export default function Homepage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "SoftwareApplication",
-            name: "lawn",
+            name: "Markr",
             description:
               "Video review and collaboration for creative teams. Frame-accurate comments, unlimited seats, flat pricing.",
             url: "https://lawn.video",
@@ -469,9 +460,8 @@ export default function Homepage() {
               },
             ],
             creator: {
-              "@type": "Person",
-              name: "Theo",
-              url: "https://x.com/theo",
+              "@type": "Organization",
+              name: "Markr",
             },
           }),
         }}

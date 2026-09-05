@@ -34,12 +34,12 @@ export function MarketingFooter() {
             <ul className="space-y-3 text-sm font-bold">
               <li>
                 <Link to="/compare/frameio" className="transition-colors hover:text-[#7cb87c]">
-                  lawn vs Frame.io
+                  Markr vs Frame.io
                 </Link>
               </li>
               <li>
                 <Link to="/compare/wipster" className="transition-colors hover:text-[#7cb87c]">
-                  lawn vs Wipster
+                  Markr vs Wipster
                 </Link>
               </li>
             </ul>
@@ -68,7 +68,7 @@ export function MarketingFooter() {
             <ul className="space-y-3 text-sm font-bold">
               <li>
                 <a
-                  href="https://github.com/pingdotgg/lawn"
+                  href="https://github.com/Aazib-Ai/lawn"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="transition-colors hover:text-[#7cb87c]"
@@ -80,7 +80,7 @@ export function MarketingFooter() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-between gap-4 border-t border-[#333] pt-8 md:flex-row">
-          <span className="text-3xl font-black tracking-tighter">lawn.</span>
+          <span className="text-3xl font-black tracking-tighter">markr.</span>
           <span className="text-sm text-[#888]">Video review for creative teams.</span>
         </div>
       </div>

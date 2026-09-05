@@ -104,23 +104,23 @@ function TextOverlay({
 const images: { name: string; jsx: ReturnType<typeof TextOverlay> }[] = [
   {
     name: "default",
-    jsx: <TextOverlay title="lawn" titleSize={200} subtitle="Video review that doesn't suck" />,
+    jsx: <TextOverlay title="markr" titleSize={200} subtitle="Video review that doesn't suck" />,
   },
   {
     name: "home",
-    jsx: <TextOverlay title="lawn" titleSize={200} subtitle="Video review that doesn't suck" />,
+    jsx: <TextOverlay title="markr" titleSize={200} subtitle="Video review that doesn't suck" />,
   },
   {
     name: "compare-frameio",
     jsx: (
-      <TextOverlay title="lawn vs Frame.io" titleSize={96} subtitle="$5/mo flat vs $19/user/mo" />
+      <TextOverlay title="Markr vs Frame.io" titleSize={96} subtitle="$5/mo flat vs $19/user/mo" />
     ),
   },
   {
     name: "compare-wipster",
     jsx: (
       <TextOverlay
-        title="lawn vs Wipster"
+        title="Markr vs Wipster"
         titleSize={96}
         subtitle="Simpler. Cheaper. Open source."
       />

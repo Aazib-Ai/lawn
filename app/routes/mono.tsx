@@ -25,7 +25,7 @@ export default function HomepageMono() {
           <span
             className={`text-xl font-black transition-opacity duration-200 ${scrolled ? "opacity-100" : "opacity-0"}`}
           >
-            lawn
+            markr
           </span>
           <span
             className={`hidden border-l border-[#ccc] pl-4 text-xs text-[#888] transition-opacity duration-200 sm:inline ${scrolled ? "opacity-100" : "opacity-0"}`}
@@ -46,9 +46,9 @@ export default function HomepageMono() {
       {/* Hero - Massive brand + clear statement */}
       <section className="px-6 pt-8 pb-16">
         <div className="mx-auto max-w-6xl">
-          {/* Giant lawn */}
+          {/* Giant markr */}
           <h1 className="text-[20vw] leading-[0.85] font-black tracking-tight sm:text-[18vw]">
-            lawn
+            markr
           </h1>
 
           {/* What it is - immediately clear */}
@@ -99,7 +99,7 @@ export default function HomepageMono() {
       {/* Comparison - straightforward */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-4xl">
-          <h2 className="mb-2 text-2xl font-black">How lawn compares</h2>
+          <h2 className="mb-2 text-2xl font-black">How Markr compares</h2>
           <p className="mb-8 text-[#888]">Frame.io is solid software. Here's where we differ.</p>
 
           <div className="space-y-6">
@@ -113,7 +113,7 @@ export default function HomepageMono() {
                   <div className="mt-2 text-sm text-[#888]">Team of 5 = $1,140/year</div>
                 </div>
                 <div>
-                  <div className="mb-1 text-sm text-[#7cb87c]">lawn</div>
+                  <div className="mb-1 text-sm text-[#7cb87c]">Markr</div>
                   <div className="text-2xl font-black text-[#7cb87c]">$5/mo total</div>
                   <div className="mt-2 text-sm text-[#888]">Team of 5 = $60/year</div>
                 </div>
@@ -135,7 +135,7 @@ export default function HomepageMono() {
                 </ul>
               </div>
               <div className="border-2 border-[#2d5a2d] p-6">
-                <div className="mb-2 font-black text-[#2d5a2d]">lawn</div>
+                <div className="mb-2 font-black text-[#2d5a2d]">Markr</div>
                 <ul className="space-y-1 text-sm">
                   <li>• Works with any software</li>
                   <li>• Simpler, faster interface</li>
@@ -176,20 +176,8 @@ export default function HomepageMono() {
       <section className="border-b-2 border-[#1a1a1a] px-6 py-16">
         <div className="mx-auto max-w-3xl text-center">
           <blockquote className="text-2xl leading-tight font-bold sm:text-3xl">
-            "I built lawn because I got tired of waiting for Frame.io to load. Video review should
-            be instant."
+            "Video review should be instant, reliable, and frictionless."
           </blockquote>
-          <p className="mt-4 text-[#888]">
-            —{" "}
-            <a
-              href="https://x.com/theo"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-[#1a1a1a]"
-            >
-              Theo
-            </a>
-          </p>
         </div>
       </section>
 
@@ -211,7 +199,7 @@ export default function HomepageMono() {
       {/* Footer */}
       <footer className="border-t-2 border-[#1a1a1a] px-6 py-8">
         <div className="mx-auto flex max-w-5xl items-center justify-between text-sm">
-          <span className="text-xl font-black">lawn</span>
+          <span className="text-xl font-black">markr</span>
           <div className="flex gap-6 text-[#888]">
             <a href="/github" className="hover:text-[#1a1a1a]">
               GitHub
